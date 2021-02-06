@@ -1,0 +1,187 @@
+@charset "utf-8";
+.my-bg{
+	background: #6D0EB1;
+}
+
+.text-white{
+	color: white;
+}
+
+.navbar a{
+	color: white;
+}
+
+.add-header,.first-add-header,.secoend-add-header,.third-add-header{
+	font-family: "Righteous" , sans-serif;
+	font-size: 150px;
+	letter-spacing: 10px;
+}
+
+.add-desc{
+	font-family: "PT Sans Cpation", sans-serif;
+	font-size: 30px;
+}
+
+.carousel-indicators{
+	bottom: -30px;
+}
+
+.carousel-indicators li.active{
+	background-color:  yellow;
+}
+/*
+.carousel-indicators li{
+	width: 30px;
+	height: 30px
+	border-radious:50%;
+	font-family: 'Archivo Black', sans-serif;
+}*/
+
+#search-box{
+	top: 10px;
+	right: 25px;
+	width: 438px;
+}
+
+.our-story h5{
+	font-family: 'Viga', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.our-story p{
+	text-align: justify;
+	color: #323232;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.our-story .nav-link{
+	border: none;
+}
+
+.our-story .nav-link.active{
+	color: red;
+	background-image: url(/images/hover.png);
+	background-repeat: no-repeat;
+	padding-bottom: 15px;
+	background-position: bottom;
+	background-size: 0 0;
+	-moz-animation: hover 1s;
+	-webkit-animation: hover 1s;
+	-o-animation: hover 1s;
+	animation: hover 1s;
+	animation-fill-mode: forwards;
+}
+
+@-o-keyframes hover{
+	0%{
+		background-size: 0 0;
+
+	}
+	100%{
+		background-size: 70% 15px;
+	}
+}
+
+
+@-moz-keyframes hover{
+	0%{
+		background-size: 0 0;
+
+	}
+	100%{
+		background-size: 70% 15px;
+	}
+}
+
+@-webkit-keyframes hover{
+	0%{
+		background-size: 0 0;
+
+	}
+	100%{
+		background-size: 70% 15px;
+	}
+}
+
+@keyframes hover{
+	0%{
+		background-size: 0 0;
+
+	}
+	100%{
+		background-size: 70% 15px;
+	}
+}
+
+.study-us .card{
+	width: 250px;
+	height: 300px;
+	/* background-color: red; */
+	border: none;
+	overflow: hidden;
+}
+
+.study-us img,.study-us .btn-box
+{
+	position: absolute;
+}
+
+.study-us .btn-box{
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.815);
+}
+
+.study-us .btn-box div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+	width: 80%;
+}
+
+.study-us .card:hover img{
+	transform: scale(1.2);
+	transition: 1s;
+} 
+
+.study-us .card:hover .btn-box{
+	display: block;
+	transition: 1s;
+}
+
+#project{
+	background-image: url(images/project-bg.jpg);
+	background-size: 50%;
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+@media(max-width:768px){
+	#project{
+		background-position: bottom;
+		background-repeat: repeat-y;
+		background-size: 100%;
+	}
+	.study-us .card{
+		width: 80%;
+		margin: 0 auto;
+		/* 8001208930 */
+	}
+
+	#founder-card{
+		width: 250px;
+	}
+
+	#founder-card img{
+		width: 100%;
+	}
+
+
+
+}

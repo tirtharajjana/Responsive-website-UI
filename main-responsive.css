@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@media(max-width: 768px)
+{
+	#search-box{
+		width: 90%;
+		left: 5%;
+		right: 5%;
+	}
+
+	#header h1{
+		font-size:30px; 
+	}
+
+	#header p{
+		
+		font-size:15px; 
+	}
+
+	.desktop-pic{
+		width: 100%;
+	}
+}
